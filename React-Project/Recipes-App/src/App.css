@@ -1,0 +1,76 @@
+/* .App {
+  text-align: center;
+} */
+
+.headder {
+  position: sticky;
+  top: 0;
+  background-color: rgb(50, 207, 73);
+  height: 60px;
+  width: 100%;
+  box-shadow: 0px, 0px, 20px, 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  z-index: 100;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border-right: 2px solid purple;
+  overflow-y: scroll;
+  height: 91.5vh;
+}
+.card {
+  border-bottom: 1px solid lightgray !important;
+  border-radius: 0px !important;
+}
+.displaydiv {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 540px;
+  position: sticky;
+  top: 0;
+  margin: 0.2% 10% 0px 10%;
+  z-index: -10;
+}
+.contentheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  background-color: rgb(238, 238, 238);
+  font-size: 30px;
+  font-weight: 700;
+  border-bottom: 2px solid rgb(179, 178, 178);
+}
+.content-image {
+  height: 50%;
+  width: 50%;
+  margin-left: 25%;
+}
+.content-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.image-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0px !important;
+}
+.decription {
+  width: 80%;
+  margin-left: 10%;
+}
+.content-div{
+  height: 100%;
+}

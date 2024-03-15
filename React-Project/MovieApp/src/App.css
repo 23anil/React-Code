@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@700&display=swap");
+
+.loginpage {
+  background-image: url(Group\ 7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  gap: 10px 10px;
+}
+
+.emptydiv {
+  grid-column: 1/7;
+  grid-row: 1/12;
+}
+
+.logindiv {
+  grid-column: 8/12;
+  grid-row: 3/10;
+  margin: 0% 8% 0% 6%;
+  justify-content: center;
+  position: relative;
+}
+
+.loginlabel {
+  color: #f7efe6;
+  height: 40px;
+  font-size: 30px;
+  font-family: "Sofia pro", sans-serif;
+  font-weight: 600;
+  margin-left: 40%;
+}
+
+.login1stfield {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #e7e4df6d;
+  margin: 15% 0% 0% 0%;
+}
+
+.loginfield input::placeholder {
+  color: #e7e4df6d;
+  font-family: "Sofia pro", sans-serif;
+  font-size: 18px;
+}
+
+.login1stfield input {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  background-color: transparent !important;
+}
+
+.login2ndfield {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #e7e4df6d;
+  margin: 40% 0% 0% 0%;
+}
+
+.login2ndfield input {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  background-color: transparent !important;
+}
+
+.loginbtndiv {
+  position: absolute;
+  color: #2d0102;
+  height: 50px;
+  width: 150px;
+  font-size: 30px;
+  font-family: "Sofia pro", sans-serif;
+  font-weight: 600;
+  margin: 60% 0% 0% 33%;
+  padding: 0% 0% 0% 0%;
+}
+.log-btn {
+  background-color: #f7efe6;
+  width: 100%;
+  border-radius: 8px;
+}
+.login-last-label {
+  color: #e7e4df6d;
+  position: absolute;
+  width: 70%;
+  height: 50px;
+  margin: 75% 0% 0% 22%;
+}
+
+.loginpage-Register {
+  font-size: 21px;
+  color: #f7efe6;
+}
+
+@media only screen and (max-width: 1000px) {
+  .emptydiv {
+    grid-column: 1/8;
+    grid-row: 1/12;
+    display: none;
+  }
+  .logindiv {
+    grid-column: 1/12;
+    grid-row: 2/10;
+    margin: 0% 4% 4% 4%;
+  }
+  .loginlabel {
+    margin-left: 44%;
+  }
+  .login1stfield {
+    margin: 12% 0% 0% 0%;
+  }
+  .login2ndfield {
+    margin: 30% 0% 0% 0%;
+  }
+  .loginbtndiv {
+    margin: 45% 0% 0% 42%;
+  }
+  .login-last-label {
+    margin: 53% 0% 0% 34.3%;
+  }
+}
+/* ----------------------- */
+
+/* ************************ */
+/* Register-page */
+.Register-page-background {
+  background-image: url(Group\ 8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  position: relative;
+}
+.Register-box {
+  height: 33rem;
+  position: relative;
+  margin: 7rem 0% 0% 64% !important;
+  text-align: center;
+}
+.Register-label {
+  color: #f7efe6;
+  font-size: 30px;
+  font-family: "Sofia pro", sans-serif;
+  font-weight: 500;
+}
+
+.Register-fields {
+  position: absolute;
+  height: 43px;
+  width: 96%;
+  border-bottom: 1.5px solid #e7e4df6d;
+  margin: 0% 2% 0% 2%;
+}
+
+.Register-fields input::placeholder {
+  color: #e7e4df6d;
+  font-family: "Sofia pro", sans-serif;
+  font-size: 18px;
+}
+
+.register-btn {
+  height: 45px;
+  width: 150px;
+  font-size: 20px;
+  font-family: "Sofia pro", sans-serif;
+  font-weight: 500;
+  border-radius: 8px;
+  margin-left: 3.5rem;
+}
+
+.registe-login {
+  height: 28px;
+  width: 250px;
+  margin: -14% 0% 0% 4%;
+  color: #e7e4df6d;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Register-box {
+    margin: 10rem 0% 0% 0% !important;
+  }
+}
+/* ----------------------- */
+
+/* ************************ */
+/* Select-Theater */
+.nav-bar {
+  height: 45px;
+  background-color: #272525;
+  box-shadow: 0px 3px 6px #0a0000;
+}
+.navbar-logo {
+  position: absolute;
+  margin-top: 10px;
+  height: 25px;
+}
+.navbar-nav-icon {
+  position: absolute;
+  margin: 5px 0% 0% 93%;
+  height: 35px;
+  width: 35px;
+}
+
+@media only screen and (max-width: 670px) {
+  .Select-Theater-nav-icon {
+    margin: 5px 0% 0% 90%;
+  }
+}
+
+.date-div {
+  height: 50px;
+  border: 0.7px solid #ffffff66;
+  border-radius: 10px;
+  padding: 0px !important;
+  box-shadow: 0px 3px 6px #0a0000;
+}
+.dateField {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 0px;
+  color: white;
+}
+.dateField::placeholder {
+  color: white;
+  font-size: larger;
+}
+
+.show-time-label {
+  font-size: larger;
+  color: white;
+  margin-left: 65px;
+}
+.times-btn-div {
+  height: 55px;
+  width: 92% !important;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+.times-btn {
+  display: inline;
+  width: 19%;
+  border: 1px solid #ffffff66;
+  color: #f7efe6;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: large;
+  background-color: transparent;
+}
+.theaters-image:hover {
+  background-color: aqua;
+}
+
+/* .dateField[type="date"]::before {
+  content: attr(placeholder);
+  position: absolute;
+  color: #999999;
+}
+.dateField[type="date"] {
+  color: #ffffff;
+}
+
+.dateField[type="date"]:focus,
+.dateField[type="date"]:valid {
+  color: #666666;
+}
+
+.dateField[type="date"]:focus::before,
+.dateField[type="date"]:valid::before {
+  content: "";
+} */
+
+.theater-outer-div-label {
+  height: 31px;
+  width: 160px !important;
+  color: #f7efe6;
+  font-size: 20px;
+  margin: 0% 0% 0% 5.1%;
+}
+.theaters {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90% !important;
+  margin-left: 5%;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+}
+/* ----------------------- */
+
+/* ************************ */
+/* Movies-List */
+
+.slick-next{
+  right: 0px !important;
+}
+.slick-dots{
+  display: none !important;
+}
+/* ------------------- */
+.carousels-div {
+  height: 22rem !important;
+  background-color: antiquewhite;
+}
+.movies-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90% !important;
+  margin-left: 5%;
+  justify-content: space-between;
+}
+.movie-card-btn {
+  background-color: rgba(136, 126, 126, 0.6) !important;
+  color: rgb(232, 231, 231) !important;
+  width: 12rem;
+}
+/* ----------------------- */
+
+/* ************************ */
+.seats-div {
+  height: 25px;
+  width: 25px !important;
+  border: 0.5px solid whitesmoke;
+  font-size: 10px;
+}
+/* ----------------------- */
+
+/* ************************ */
+/* Payment-Status */
+.payment-status-page {
+  width: 100vw;
+  height: 100vh;
+}
+
+.payment-card {
+  height: 185px;
+  width: 225px !important;
+  background-color: #272525;
+  border-radius: 16px;
+}
+.payment-status-box {
+  margin: 15% 0% 0% 37%;
+  height: 50px;
+  width: 52px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.payment-btn {
+  font-size: 10px;
+  margin-left: 97px;
+  border-radius: 3px;
+  border: 0px;
+}
+/* ----------------------- */

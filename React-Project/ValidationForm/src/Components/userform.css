@@ -1,0 +1,13 @@
+.ipFielddiv{
+    display: flex !important;
+    justify-content: center !important;
+}
+.inField{
+    /* width: 32%; */
+    font-size: 200% !important;
+}
+
+.errorsms{
+    color: red;
+    font-size: 10px;
+}

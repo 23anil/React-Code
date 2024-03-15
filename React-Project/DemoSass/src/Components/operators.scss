@@ -1,0 +1,22 @@
+@use "sass:math";
+
+.first01{
+height: math.div(10,30)*100% ;
+width:200px;
+background-color: antiquewhite;
+}
+
+.second02{
+    height: math.div(300,900)*100%;
+    width: math.div(200,300)*100%;
+    background-color: aquamarine;
+}
+
+.third03{
+    height: math.div(200,400)*100%;
+    width: math.div(200,300)*100%;
+    background-color: blueviolet;
+}
+.put{
+    height: 100vh;
+}

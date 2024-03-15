@@ -1,0 +1,35 @@
+// Modules-s
+@use "variable";
+
+$bg-l-color: cadetblue;
+$T-c-h1: rgb(252, 210, 159);
+$T-c-h2: rgb(151, 151, 241);
+$T-c-p: rgb(178, 216, 53);
+$T-F-p: 20px;
+$M-sm: 10px;
+
+// Nesting-scss
+
+.lists {
+  height: variable.$H-h;
+  width: variable.$H-w;
+  background-color: $bg-l-color;
+
+  h1 {
+    color: $T-c-h1;
+    margin: variable.$M-m;
+    margin-left: $M-sm;
+  }
+  h2 {
+    color: $T-c-h2;
+    margin-left: $M-sm;
+  }
+  p {
+    color: $T-c-p;
+    font-size: $T-F-p;
+    margin-left: $M-sm;
+  }
+}
+body {
+  margin: variable.$M-m;
+}

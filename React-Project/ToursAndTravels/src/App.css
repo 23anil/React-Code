@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@700&display=swap");
+
+.errormessage {
+  color: red;
+}
+
+.first-layer {
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  background: transparent
+    radial-gradient(
+      closest-side at 30% 59%,
+      #d5e9ed 20%,
+      #abe4e8 36%,
+      #7ddfe2 65%,
+      #61dcdf 70%,
+      #57dbde 79%,
+      #45b0b2 106%,
+      #3f9fa1 150%
+    )
+    0% 0% no-repeat padding-box;
+}
+.second-layer {
+  position: absolute;
+  margin-top: 9.5%;
+  height: 80vh;
+  width: 60vw;
+  background: transparent url("Group\ 274.svg") 45% 50% no-repeat padding-box;
+}
+.third-layer {
+  height: 100%;
+  width: 110%;
+  position: absolute;
+  z-index: 5;
+  /* background: blanchedalmond url("Group\ 537.png") 25% 0% no-repeat padding-box; */
+  background-color: transparent;
+  background-image: url(Group\ 537.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.loginpage {
+  height: 63vh;
+  width: 33vw;
+  position: absolute;
+  margin: 0% 0% 0% 93.5%;
+  z-index: -100;
+  border-radius: 31px;
+  background-color: whitesmoke;
+}
+.loginpage-heading {
+  font: normal normal bold 48px/74px "Sofia pro", sans-serif;
+  text-align: center;
+  color: #3f9fa1;
+  margin-top: 10%;
+}
+
+.first-field-div {
+  height: 7vh;
+  width: 25vw;
+  margin: auto;
+}
+
+.Numberormail {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #a1a7b0;
+  border-radius: 5px;
+}
+
+.Numberormail::placeholder {
+  font-size: 18px;
+  color: #a4a5a8;
+  font-family: "Sofia pro", sans-serif;
+  padding-left: 20px;
+}
+
+.second-field-div {
+  height: 7vh;
+  width: 25vw;
+  margin: auto;
+  margin-top: 8% !important;
+}
+.password {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #a1a7b0;
+  border-radius: 5px;
+}
+
+.password::placeholder {
+  font-size: 18px;
+  color: #a4a5a8;
+  font-family: "Sofia pro", sans-serif;
+  padding-left: 20px;
+}
+
+.login-btn-div {
+  height: 7vh;
+  width: 25vw;
+  margin: auto;
+  margin-top: 8% !important;
+}
+
+.login-btn {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #a1a7b0;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: #36898b;
+  font-size: 25px;
+}
+
+.login-page-text {
+  margin: 2% 0% 0% 23%;
+}
+
+.register-loginpage {
+  font-size: 19px;
+  cursor: pointer;
+}
+
+/* register-page  */
+
+.register-page {
+  height: 89.7vh;
+  width: 33vw;
+  position: absolute;
+  margin: -10% 0% 0% 94.5%;
+  z-index: -100;
+  border-radius: 31px;
+  background-color: white;
+}
+
+.register-heading {
+  font: normal normal bold 30px/74px "Sofia pro", sans-serif;
+  text-align: center;
+  color: #3f9fa1;
+  margin-top: 6%;
+}
+.field-div {
+  height: 7vh;
+  width: 25vw;
+  margin: auto;
+  margin-top: 7% !important;
+}
+
+.field-placeholder::placeholder {
+  font-size: 18px;
+  color: #a4a5a8;
+  font-family: "Sofia pro", sans-serif;
+  padding-left: 20px;
+}
+
+.allfield {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #a1a7b0;
+  border-radius: 5px;
+}
+.button-div {
+  height: 7vh;
+  width: 25vw;
+  margin: auto;
+  margin-top: 5% !important;
+}
+
+.register-btn {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #a1a7b0;
+  border-radius: 5px;
+  background-color: #3f9fa1;
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: "Sofia pro", sans-serif;
+}
+
+.register-page-text {
+  margin: 1% 0% 0% 25%;
+}
+.register-login {
+  font-size: 19px;
+  cursor: pointer;
+}
+
+/* location-components  */
+
+/* payment page */
+.payment {
+  height: 100vh;
+  width: 100%;
+}
+
+.card {
+  height: 45.02vh;
+  width: 27.94vw;
+}
+
+.pay-btn {
+  font-family: "Sofia pro", sans-serif !important;
+  background-color: #0b8587 !important;
+}
+.payment-text-div {
+  height: 2.9vh;
+  width: 25.5vw;
+}
+
+.hover-g-pay:hover {
+  cursor: pointer;
+  border: 1px solid #1f1e20 !important;
+  hover-bg {
+    background-color: #1f1e20;
+  }
+}
+
+.Add-Upi-border {
+  border-color: #36898b !important;
+}
+
+.nav-profile-icon :hover {
+  color: #36898b !important;
+}
+
+.pay-div:hover {
+  border: 1px solid #000;
+}
+
+/* payment-status-page */
+.payment-status-text {
+  font-size: 140%;
+  font-family: "Sofia pro", sans-serif;
+  font-weight: bold;
+}
+.payment-status-btn {
+  font-family: "Sofia pro", sans-serif !important;
+  background-color: #0b8587 !important;
+}
+.payment-status-animation-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  width: 18%;
+  background-color: #a1a7b0;
+  border-radius: 50%;
+  margin: 15% 0% 0% 38%;
+}
+.card {
+  box-shadow: 0px 0px 4px;
+}
+
+.booking-card {
+  border: 2px solid lightgray;
+  border-radius: 20px;
+}
+.booking-card-btn {
+  width: 100%;
+  height: 42px;
+  border-radius: 8px;
+  border: 1px solid #064d4f;
+  background-color: #07595b;
+  color: white;
+}
+
+.history-card-btn {
+  width: 100%;
+  height: 42px;
+  border-radius: 8px;
+  border: 1px solid #aeaeae;
+  background-color: #aeaeae;
+  color: #707070;
+  font-weight: 600;
+  /* text-align: justify; */
+}
+
+/* paypolicycard */
+.policy-close-icon:hover {
+  color: #00f;
+}
+
+.policy-ok-btn {
+  color: white;
+  background-color: #0b8587;
+  padding: 5px 22px 5px 22px;
+  border-radius: 6px;
+  border: 0px solid;
+}
+
+.modal-content {
+  width: 90% !important;
+  height: 440px !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-page-indicator {
+  height: 40px;
+  width: 40px;
+  border-color: #0b8587 !important;
+  cursor: pointer;
+}
+.location-page-indicator:hover{
+  background-color: #e6fcfc;
+}

@@ -1,0 +1,38 @@
+// variable-scss
+$bg-light-color: rgba(0, 255, 242, 0.2);
+$bg-dark-color: rgb(0, 255, 242);
+$bg-darkL-color: rgb(253, 255, 156);
+$D-Flex:flex;
+$J-c-c:end;
+$Fs: 20px;
+$text-color: #000;
+$main-h: 400px;
+$main-w: 400px;
+$H-h:100vh;
+$H-w:100vw;
+$M-m:0px;
+$M-p:0px;
+
+.root {
+  background-color: $bg-light-color;
+  font-size: $Fs;
+  color: $text-color;
+  height: 25px;
+}
+.main {
+  height: $main-h;
+  width: $main-w;
+  background-color: $bg-dark-color;
+  justify-content: $J-c-c;
+  align-items: center;
+//   justify-content:end ;
+}
+.head {
+  display: $D-Flex;
+  background-color: $bg-darkL-color;
+  height:$H-h;
+  width: $H-w;
+}
+body{
+    margin: $M-m;
+}

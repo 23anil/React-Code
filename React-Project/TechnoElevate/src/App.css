@@ -1,0 +1,356 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 9vh;
+  border: 1px solid rgb(212, 210, 210);
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+.technology {
+  display: block;
+  height: 30px;
+  width: 47%;
+  margin-left: 8%;
+}
+.level {
+  display: block;
+  height: 30px;
+  width: 30%;
+  margin-left: 1%;
+}
+.fromdate {
+  display: block;
+
+  height: 30px;
+  width: 8%;
+  margin-left: 1%;
+}
+.todate {
+  display: block;
+  height: 30px;
+  width: 8%;
+  margin-left: 1%;
+}
+.search-box {
+  display: block;
+  height: 40px;
+  width: 250%;
+  padding: 2px;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 0.6%;
+  color: rgb(186, 184, 184);
+}
+.search-btn {
+  width: 100%;
+  background-color: #faa81d;
+  border: 2px solid #faa81d;
+  border-radius: 4px;
+  padding: 2px;
+  color: white;
+}
+
+.search-box01 {
+  width: 100%;
+  border: 2px solid rgb(212, 210, 210);
+  color: rgb(186, 184, 184);
+  border-radius: 4px;
+  padding: 2px;
+}
+.search-box01::placeholder {
+  color: #b7b7b7;
+}
+
+.technology01 {
+  width: 100%;
+  border: 2px solid rgb(212, 210, 210);
+  color: #b7b7b7;
+  border-radius: 4px;
+  padding: 2px;
+}
+.level01 {
+  width: 100%;
+  border: 2px solid rgb(212, 210, 210);
+  color: #b7b7b7;
+  border-radius: 4px;
+  padding: 2px;
+}
+.fromdate01 {
+  width: 100%;
+  border: 2px solid rgb(212, 210, 210);
+  color: #b7b7b7;
+  border-radius: 4px;
+  padding: 2px;
+}
+.todate01 {
+  width: 100%;
+  color: #b7b7b7;
+  border: 2px solid rgb(212, 210, 210);
+  border-radius: 4px;
+  padding: 2px;
+}
+.button-box {
+  height: 30px;
+  width: 40%;
+  color: white;
+  margin-right: 1%;
+}
+
+.errorsms {
+  color: red;
+  font-size: small;
+  height: 10px;
+  margin-bottom: 0% !important;
+  margin-top: -3px;
+}
+
+/* AddQuestion */
+.maindiv {
+  height: 142px;
+  width: 85%;
+  margin: auto;
+}
+.subhead {
+  height: 20%;
+  color: #086288;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 50px !important;
+  font-family: Sitka Banner, Bold;
+}
+.details-div {
+  height: 35%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.candidate-name-div {
+  height: 100%;
+  width: 20%;
+  display: inline;
+}
+.candidate-name {
+  height: 100%;
+  width: 17vw;
+  align-items: center;
+  font-size: 20px;
+  border: 2px solid #00000029;
+  border-radius: 2px;
+}
+.candidate-name::placeholder {
+  color: #b7b7b7;
+}
+.department-div {
+  height: 100%;
+  width: 17%;
+  color: #b7b7b7;
+  display: inline;
+  margin-left: 1.5%;
+}
+.department {
+  height: 100%;
+  width: 14.5vw;
+  align-items: center;
+  font-size: 20px;
+  border: 2px solid #00000029;
+  border-radius: 2px;
+  color: #b7b7b7;
+  margin-left: 1%;
+}
+.inerview-level-div {
+  height: 100%;
+  width: 17%;
+  color: #b7b7b7;
+  display: inline;
+  margin-left: 1.5%;
+}
+.inerview-level {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  font-size: 20px;
+  border: 2px solid #00000029;
+  border-radius: 2px;
+  color: #b7b7b7;
+}
+
+.client-name-div {
+  height: 100%;
+  width: 17%;
+  color: #b7b7b7;
+  display: inline;
+  margin-left: 1.5%;
+}
+.client-name {
+  height: 100%;
+  width: 14.5vw;
+  align-items: center;
+  font-size: 20px;
+  border: 2px solid #00000029;
+  border-radius: 2px;
+  margin-left: 1%;
+}
+.client-name::placeholder {
+  color: #b7b7b7;
+}
+
+.qs-technology-div {
+  height: 100%;
+  width: 17%;
+  color: #b7b7b7;
+  display: inline;
+  margin-left: 1%;
+}
+
+.qs-technology {
+  height: 100%;
+  width: 14.5vw;
+  align-items: center;
+  font-size: 20px;
+  border: 2px solid #00000029;
+  border-radius: 2px;
+  color: #b7b7b7;
+  margin-left: 1%;
+}
+
+.Qustion-answer-div {
+  height: auto;
+  width: 75%;
+  margin: auto;
+  margin-top: 10px !important;
+  margin-right: 17.5% !important;
+}
+.Qustion-div {
+  height: 50px;
+  width: 84%;
+  margin-bottom: 30px;
+}
+.question {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  border: 2px solid #00000029;
+}
+.question::placeholder {
+  color: #b7b7b7;
+  font-size: 24px;
+}
+.Answer-div {
+  height: 100px;
+  width: 84%;
+  margin-bottom: 20px;
+}
+.answer {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  border: 2px solid #00000029;
+}
+.answer::placeholder {
+  color: #b7b7b7;
+  font-size: 24px;
+  font-family: Segoe UI, Semilight;
+}
+
+.add-btn-div {
+  height: 40px;
+  width: 100px;
+  position: absolute;
+  margin: -5.5% 0px 0px 64%;
+}
+.add-btn {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  color: white;
+  background-color: #faa81d;
+  border: 2px solid #faa81d;
+  padding: 6px;
+  font-size: smaller;
+}
+.remove-btn-div {
+  height: 40px;
+  width: 100px;
+  position: absolute;
+  margin: -9.5% 0px 0px 64%;
+}
+.remove-btn {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  color: white;
+  background-color: #faa81d;
+  border: 2px solid #faa81d;
+  padding: 6px;
+  font-size: smaller;
+}
+
+.errormessage {
+  color: red;
+  width: 100%;
+  font-size: 16px;
+  margin: 0px !important;
+}
+
+.outerdiv {
+  height: auto;
+  width: 98vw;
+  /* background-color: beige; */
+}
+.submit-btn-div {
+  height: 40px;
+  width: 100px;
+  border-radius: 4px;
+  position: absolute;
+  margin: 14% 0% 0% 87%;
+}
+.submit-btn {
+  height: 100%;
+  width: 100%;
+  color: white;
+  border: 2px solid #faa81d;
+  background-color: #faa81d;
+  border-radius: 4px;
+}
+
+.question-outer-div {
+  height: auto;
+  width: 100%;
+  top: 152px;
+  left: 80px;
+  border-bottom: 1px solid lightgray;
+}
+.qustion01-div {
+  height: auto;
+  width: 90%;
+  margin-left: 6%;
+}
+.success-page {
+  height: 91vh;
+  width: 100vw;
+}
+
+/* Upload-status-page */
+.upload-status-text {
+  font-size: 1.4rem;
+  font-family: "Sofia pro", sans-serif;
+  font-weight: bold;
+}
+.upload-status-btn {
+  font-family: "Sofia pro", sans-serif !important;
+  background-color: #0b8587 !important;
+}
+.upload-status-animation-box {
+  height: 8.5vh;
+  width: 4.4vw;
+  border: 5px solid #05cc76;
+  border-radius: 50%;
+  margin: 0% 0% 4% 38%;
+}
+.card {
+  box-shadow: 0px 0px 4px;
+}

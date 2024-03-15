@@ -1,0 +1,56 @@
+@use "variable";
+
+// ------------mixins------------
+
+// @mixin data($theme:rgb(249, 123, 123))
+// {
+//     background-color:variable.$bg-light-color;
+//     font-size:variable.$Fs ;
+//     color: $theme;
+// }
+
+// .first{
+// @include data;
+// }
+// .Second{
+// @include data($theme:rgb(124, 226, 124))
+// }
+// .Third{
+//     @include data($theme:rgb(125, 149, 164))
+// }
+// .fourth{
+//     @include data($theme:rgb(231, 244, 146));
+//     margin: 0px;
+// }
+
+// ------------Extend/Inheritance------------
+
+%data {
+  background-color: variable.$bg-light-color;
+  font-size: variable.$Fs;
+  margin: 10px
+};
+%value{
+    font-weight: 700
+}
+
+.first {
+    @extend %data;
+    @extend %value;
+    color: rgb(204, 74, 74);
+    font-size: 30px;
+    
+}
+.Second {
+    color: rgb(208, 211, 117);
+    @extend %data;
+}
+.Third {
+    @extend %data;
+    color: rgb(96, 91, 147);
+}
+.fourth {
+    @extend %data;
+    color: rgb(67, 158, 106);
+  margin: 0px;
+}
